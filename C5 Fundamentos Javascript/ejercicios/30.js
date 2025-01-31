@@ -1,3 +1,4 @@
+
 function deEuroAdolar(euro) {
   // La función recibe un argumento llamado euro el cual es un numero.
   // Debes calcular el valor recibido como argumento pasándolo a dólares.
@@ -7,6 +8,12 @@ function deEuroAdolar(euro) {
   // 1 ---> 1.20
   // 0 ---> 0
   // Tu código:
+  var dolar= 1.20
+  if (euro==1){
+  return (dolar)
 }
+}
+
+console.log(deEuroAdolar(1))
 
 module.exports = deEuroAdolar;
