@@ -4,5 +4,8 @@
 const nuevoBoolean = true;
 console.log(nuevoBoolean);
 
+var nuevoBoolean2 = false
+console.log (nuevoBoolean2);
+
 
 module.exports = nuevoBoolean;

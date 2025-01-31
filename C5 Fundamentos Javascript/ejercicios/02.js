@@ -4,4 +4,8 @@
 const nuevoNumero = 12;
 console.log(nuevoNumero);
 
+let number = 2
+
+console.log(number)
+
 module.exports = nuevoNumero;

@@ -12,4 +12,12 @@ function esPar(num) {
 console.log (esPar(14));
 console.log (esPar(23));
 
+function esPar2 (num){
+  if (num % 2 === 0) return true
+  else return false;
+}
+
+console.log(esPar2(12))
+
+
 module.exports = esPar;

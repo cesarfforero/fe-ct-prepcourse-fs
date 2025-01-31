@@ -14,4 +14,12 @@ console.log(esNuloOIndefinido(null));
 console.log(esNuloOIndefinido(3));
 console.log(esNuloOIndefinido(undefined));
 console.log(esNuloOIndefinido(true));
+
+
+function esNuloOIndefinido2(valor){
+  if (valor === null || valor=== undefined) return true;
+  else return false
+}
+
+console.log(esNuloOIndefinido2(undefined))
 module.exports = esNuloOIndefinido;

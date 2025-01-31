@@ -11,4 +11,11 @@ function esNumeroEntero(numero) {
 }
 console.log(esNumeroEntero(24.5));
 
+
+function esNumeroEntero2 (number){
+  return Number.isInteger(number)
+}
+
+console.log(esNumeroEntero2(1))
+
 module.exports = esNumeroEntero;

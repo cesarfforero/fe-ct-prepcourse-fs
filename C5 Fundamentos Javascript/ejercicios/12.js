@@ -13,4 +13,11 @@ console.log(tienenMismaLongitud("hola","amiguitos"));
 console.log(tienenMismaLongitud("5","5"));
 console.log(tienenMismaLongitud("soy el mejor", "soy el mejor"));
 
+function tienenMismaLongitud2 (str1,str2){
+  if (str1.length === str2.length) return true;
+  else return false;
+}
+
+console.log(tienenMismaLongitud2("holaa","holaa"))
+
 module.exports = tienenMismaLongitud;

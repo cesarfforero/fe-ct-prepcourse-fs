@@ -11,4 +11,11 @@ function esImpar(num) {
 
 console.log(esImpar(5));
 
+function esImpar2 (num){
+  if (num % 2 !==0) return true;
+  else return false;
+}
+
+console.log(esImpar2(11))
+
 module.exports = esImpar;

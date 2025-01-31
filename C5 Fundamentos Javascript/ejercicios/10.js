@@ -11,5 +11,10 @@ function devolverString(string) {
 console.log(devolverString("hola mundo"));
 console.log(devolverString("césar es el mejor"));
 
+function devolverString2 (string){
+  return string
+}
+console.log(devolverString2("hola"))
+
 
 module.exports = devolverString;

@@ -8,4 +8,11 @@ function esTipoDato(valor) {
 }
 console.log(esTipoDato(true));
 
+
+function esTipoDato2(valor){
+  return typeof valor
+}
+
+console.log(esTipoDato2(5))
+
 module.exports = esTipoDato;

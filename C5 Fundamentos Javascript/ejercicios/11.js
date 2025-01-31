@@ -12,4 +12,11 @@ console.log(sonIguales(5,5));
 console.log(sonIguales("5",5));
 console.log(sonIguales("hola mundo","hola mundo"));
 
+function sonIguales2 (x,y){
+  if (x===y) return true;
+  else return false
+}
+
+console.log(sonIguales2(5,5))
+
 module.exports = sonIguales;

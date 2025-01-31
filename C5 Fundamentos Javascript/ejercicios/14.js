@@ -14,4 +14,13 @@ console.log(mayorQueCincuenta(49));
 console.log(mayorQueCincuenta(20));
 console.log(mayorQueCincuenta(52));
 
+function mayorQueCincuenta2 (num){
+
+if (num>50) return true;
+else return false;
+}
+
+console.log(mayorQueCincuenta2(50.1))
+
+
 module.exports = mayorQueCincuenta;

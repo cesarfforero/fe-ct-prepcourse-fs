@@ -17,4 +17,11 @@ function esPositivo(num) {
 console.log(esPositivo(5));
 console.log(esPositivo(-5));
 
+function esPositivo2 (num){
+  if (num > 0) return "es positivo";
+  else return "es negativo";
+}
+
+console.log(esPositivo2(-1))
+
 module.exports = esPositivo;
